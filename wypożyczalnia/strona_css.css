@@ -1,0 +1,393 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+#ScrollUp
+{
+  position: fixed;
+  background-color: orange;
+  color: white;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 40px;
+  border: 3px solid black;
+  margin-left: 96%;
+  margin-top: 800px;
+  cursor: pointer;
+}
+
+#content
+{
+    background-size: content;
+    text-align: center;
+    background-image: url(tło.jpg);
+    color: white;
+}
+
+#logo
+{
+    padding-top: 30px;
+    font-size: 45px;
+}
+
+#us
+{
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+#more_us
+{
+    font-size: 20px;
+    /* background-color: blue; */
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+/*------------------------------- NAWIGACJA ----------------------*/
+
+#nav
+{
+    background: orange;
+    height: 60px;
+}
+
+.ofert
+{
+  position: absolute;
+  width: 250px;
+  height: 60px;
+  margin-left: 700px;
+}
+
+#oferta
+{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    background-color: #b8b8b8;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    /* margin-left: 400px; */
+    line-height: 60px;
+    border: 2px solid white;
+}
+
+#oferta:hover
+{
+    background: #8c8c8c;
+    color: orange;
+    transition: 0.2s;
+}
+
+.ofertDrop
+{
+    position: absolute;
+    margin-top: -2px;
+    padding: 0px;
+    width: 200px;
+    background: #ccc;
+    transform-origin: top;
+    transform: perspective(1000px) rotateX(-90deg);
+    transition: 0.2s;
+    margin-left: 400px;
+    border: 2px solid white;
+    margin-left: 0px;
+    border-top: 0px;
+}
+
+.activeA
+{
+    transform: perspective(1000px) rotateX(0deg);
+}
+
+.ofertDrop li
+{
+    list-style: none;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.ofertDrop li a
+{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    background: #323232;
+    color: #fff;
+    border-bottom: 1px solid #232323;
+    transition: 0.2s;
+}
+
+.ofertDrop li a:hover
+{
+    color: orange;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.Divkontakt
+{
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-left: 900px;
+}
+
+#kontaktButton
+{
+  position: relative;
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  background-color: #b8b8b8;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  /* margin-left: 0px; */
+  line-height: 60px;
+  border: 2px solid white;
+}
+
+#kontaktButton:hover
+{
+    background: #8c8c8c;
+    color: orange;
+    transition: 0.2s;
+}
+
+.Divkontakt a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.DivCennik
+{
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  margin-left: 1100px;
+}
+
+#cennikButton
+{
+  position: relative;
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  background-color: #b8b8b8;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  /* margin-left: 0px; */
+  line-height: 60px;
+  border: 2px solid white;
+}
+
+#cennikButton:hover
+{
+    background: #8c8c8c;
+    color: orange;
+    transition: 0.2s;
+}
+
+.DivCennik a
+{
+  text-decoration: none;
+  color: white;
+}
+
+/* ------------------------------- SAMOCHODY -----------------------*/
+
+#cars
+{
+    background-image: url(tło.jpg);
+    padding-top: 100px;
+    height: 3000px;
+}
+
+#carsP
+{
+    font-size: 50px;
+    /* padding-top: 50px; */
+    text-align: center;
+    background: orange;
+    /* margin-top: 50px; */
+}
+
+.tiles
+{
+    display: flex;
+}
+
+#sportsP
+{
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.tiles1
+{
+    height: 300px;
+    width: 500px;
+    /* background: red; */
+    margin-left: 100px;
+}
+
+.tiles2
+{
+    height: 300px;
+    width: 500px;
+    /* background: red; */
+    margin-left: 100px;
+}
+
+.tiles3
+{
+    height: 300px;
+    width: 500px;
+    /* background: red; */
+    margin-left: 100px;
+}
+
+#opis
+{
+    font-size: 20px;
+    margin-left: 130px;
+    color: white;
+}
+
+#opis2
+{
+    font-size: 20px;
+    margin-left: 170px;
+    color: white;
+}
+
+#opis3
+{
+    font-size: 20px;
+    margin-left: 170px;
+    color: white;
+}
+
+.viewMore
+{
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-size: 17px;
+    background: transparent;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+    margin-left: 170px;
+}
+
+.viewMore:hover
+{
+  color: orange;
+  background: #212121;
+  transform: scale(1.2, 1.2);
+  border: 2px solid orange;
+}
+
+.nagłówek
+{
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 200px;
+    color: white;
+}
+
+/*----------------------- CENNIK --------------------------*/
+
+#cennikP
+{
+    font-size: 50px;
+    /* padding-top: 50px; */
+    text-align: center;
+    background: orange;
+    /* margin-top: 50px; */
+}
+
+#cost
+{
+    background-image: url(tło.jpg);
+    height: 1000px;
+}
+
+#contenerCost
+{
+    text-align: center;
+}
+
+.list
+{
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+.list li ul
+{
+    font-size: 23px;
+}
+
+/*----------------------- KONTAKT --------------------------*/
+
+#kontaktP
+{
+    font-size: 50px;
+    /* padding-top: 50px; */
+    text-align: center;
+    background: orange;
+    /* margin-top: 50px; */
+}
+
+#contact
+{
+    background: orange;
+    height: 120px;
+}
+
+.dane
+{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+#cont
+{
+    display: flex;
+}
